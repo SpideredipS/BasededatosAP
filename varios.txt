@@ -1,0 +1,107 @@
+{
+    "descripcion1": "Acerca descripcion 1",
+    "descripcion2": "Acerca descripcion 2",
+    "imageUrl": "https://img.freepik.com/foto-gratis/retrato-hombre-blanco-aislado_53876-40306.jpg?t=st=1651452332~exp=1651452932~hmac=cdc0bb558bff2430b62311e73c534c67672a9428c9756805f3672290b7fac7ff&w=740"
+}
+
+
+https://github.com/Carissnm/BackendArgPrograma
+https://github.com/Carissnm/FrontEndArgPrograma
+
+https://github.com/Raam4/portfolio-backend
+
+https://github.com/FranciscoTramontini/PortfolioWebFullStack
+
+https://github.com/Matiaseq84/Persona
+
+http://github.com/barbarabarrueta/porfolioJavaBackEnd
+
+https://github.com/Mattmaxx04/portfolio
+
+https://github.com/Anahipv
+
+<div class="progress" id="barra">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            [ngStyle]="{ width: skill?.skill_age + '%' }"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+</div>
+
+<span class="bar"><span [ngStyle]="{'width' : skill.porcentaje + '%' }"></span></span><span class="porc">{{skill.porcentaje}}%</span> 
+
+
+Host
+bkm8fussauhtqkeymdxe-mysql.services.clever-cloud.com
+Database Name
+bkm8fussauhtqkeymdxe
+User
+usaspe0dz1fxl4vd
+Password
+SaggEVDnb0eabLlCNGH9
+Port
+3306
+Connection URI
+mysql://usaspe0dz1fxl4vd:SaggEVDnb0eabLlCNGH9@bkm8fussauhtqkeymdxe-mysql.services.clever-cloud.com:3306/bkm8fussauhtqkeymdxe
+MySQL CLI
+mysql -h bkm8fussauhtqkeymdxe-mysql.services.clever-cloud.com -P 3306 -u usaspe0dz1fxl4vd -p bkm8fussauhtqkeymdxe
+
+
+GitHub: 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
+
+Acerca {
+    id: number;
+    descripcion1: string;
+    descripcion2: string;
+    descripcion3: string;
+    imageUrl: string
+}
+
+Cursos {
+    id: number;
+    establecimiento: String;
+    curso: String;
+    imageUrl: String
+}
+
+Educacion {
+    id: number;
+    establecimiento: String;
+    titulo: String;
+    periodo: String;
+    tareas: String;
+    imageUrl: String
+}
+
+Experiencia {
+    id: number;
+    empresa: String;
+    area: String;
+    puesto: String;
+    periodo: String;
+    tareas: String;
+    imageUrl: String
+}
+
+Proyectos {
+    id: number;
+    nombre: String;
+    descripcion: String;
+    urlProyecto: String
+}
+
+Skills {
+    id: number;
+    skill: String;
+    porcentaje: number;
+}
+
+
+
+
+
+
